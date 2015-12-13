@@ -12,7 +12,7 @@ Create an accurate interval that does not skew over time.
 - `interval`: `number` - Interval (in ms) with which to call func.
 - opts
     - `aligned`: `boolean` - Optional. Align timestamps. Default is `false`.
-    - `immediate`: `string` - Optional. Call func immediately as well.  Default is `false`.
+    - `immediate`: `boolean` - Optional. Call func immediately as well.  Default is `false`.
 
 ### Example
 ```
