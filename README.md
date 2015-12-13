@@ -15,7 +15,8 @@ Create an accurate interval that does not skew over time.
     - `immediate`: `boolean` - Optional. Call func immediately as well.  Default is `false`.
 
 ### Example
-```
+
+```javascript
 var accurateInterval = require('accurate-interval');
 var foo = accurateInterval(function(scheduledTime) {
     console.log('Actual time: ' + Date.now() + ' -- Scheduled time: ' + scheduledTime);
