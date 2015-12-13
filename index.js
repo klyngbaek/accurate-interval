@@ -24,10 +24,10 @@ module.exports = function accurateInterval(func, interval, opts) {
     timeout = null;
 
     wrapper = function wrapper() {
-        var expectedTime = nextAt;
+        var scheduledTime = nextAt;
         nextAt += interval;
         timeout = setTimeout(wrapper, nextAt - new Date().getTime());
-        func(expectedTime);
+        func(scheduledTime);
     };
 
     clear = function clear() {
