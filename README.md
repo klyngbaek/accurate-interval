@@ -1,8 +1,6 @@
 # accurate-interval
 
-Create an accurate internval that does not skew over time.
-
-[![build status](https://secure.travis-ci.org/klyngbaek/accurate-interval.png)](http://travis-ci.org/klyngbaek/accurate-interval)
+Create an accurate interval that does not skew over time.
 
 [![NPM](https://nodei.co/npm/accurate-interval.png)](https://nodei.co/npm/accurate-interval/)
 
