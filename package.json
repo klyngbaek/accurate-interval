@@ -1,0 +1,26 @@
+{
+  "name": "accurate-interval",
+  "version": "1.0.0",
+  "description": "Create an accurate internval that does not skew over time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "''"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klyngbaek/accurate-interval.git"
+  },
+  "keywords": [
+    "accurate",
+    "interval",
+    "setInterval",
+    "setTimeout",
+    "timer"
+  ],
+  "author": "Kristian Lyngbaek <klyngbaek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klyngbaek/accurate-interval/issues"
+  },
+  "homepage": "https://github.com/klyngbaek/accurate-interval#readme"
+}

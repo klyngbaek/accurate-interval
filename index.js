@@ -1,5 +1,5 @@
 /**
- * Call func continously with an interval of interval ms.
+ * Create an accurate internval that does not skew over time.
  * @param  {function}   func            Function to call ever interval ms
  * @param  {number}     interval        Interval (in ms) with which to call func
  * @param  {Object}     opts            Interval (in ms) with which to call func
