@@ -4,7 +4,7 @@
   "description": "Create an accurate interval that does not skew over time.",
   "main": "index.js",
   "scripts": {
-    "test": "''"
+    "test": ""
   },
   "repository": {
     "type": "git",
