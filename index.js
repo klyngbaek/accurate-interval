@@ -20,6 +20,9 @@ module.exports = function accurateInterval(func, interval, opts) {
     if (opts.aligned) {
         nextAt += interval - (now % interval);
     }
+    if (!opts.immediate) {
+        nextAt += interval;
+    }
 
     timeout = null;
 
@@ -34,12 +37,7 @@ module.exports = function accurateInterval(func, interval, opts) {
         return clearTimeout(timeout);
     };
 
-    if (opts.immediate) {
-        wrapper();
-    } else {
-        nextAt += interval;
-        timeout = setTimeout(wrapper, nextAt - new Date().getTime());
-    }
+    timeout = setTimeout(wrapper, nextAt - new Date().getTime());
 
     return {
         clear: clear

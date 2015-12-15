@@ -10,7 +10,7 @@ Create an accurate interval that does not skew over time.
 
 - `func`: `function` - Function to call ever interval ms. func takes one argument, scheduledTime, which is the timestamp in milliseconds the callback was scheduled for.
 - `interval`: `number` - Interval (in ms) with which to call func.
-- opts
+- `opts`
     - `aligned`: `boolean` - Optional. Align timestamps. Default is `false`.
     - `immediate`: `boolean` - Optional. Call func immediately as well.  Default is `false`.
 
