@@ -1,6 +1,6 @@
 {
   "name": "accurate-interval",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Create an accurate interval that does not skew over time.",
   "main": "index.js",
   "scripts": {
