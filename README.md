@@ -4,6 +4,8 @@ Create an accurate interval that does not skew over time.
 
 [![NPM](https://nodei.co/npm/accurate-interval.png)](https://nodei.co/npm/accurate-interval/)
 
+[![build status](https://secure.travis-ci.org/klyngbaek/accurate-interval.png)](http://travis-ci.org/klyngbaek/accurate-interval)
+
 ## Usage
 
 ### accurateInterval(func, interval, opts)
