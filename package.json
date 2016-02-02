@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/klyngbaek/accurate-interval#readme",
   "devDependencies": {
+    "coveralls": "^2.11.6",
     "istanbul": "^0.4.2",
     "jshint": "^2.9.1",
     "tape": "^4.4.0"
