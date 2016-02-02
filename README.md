@@ -4,10 +4,10 @@ Create an accurate interval that does not skew over time.
 
 [![NPM](https://nodei.co/npm/accurate-interval.png)](https://nodei.co/npm/accurate-interval/)
 
-[![build status](https://secure.travis-ci.org/klyngbaek/accurate-interval.png)](http://travis-ci.org/klyngbaek/accurate-interval)
+[![Build Status](https://travis-ci.org/klyngbaek/accurate-interval.svg?branch=master)](https://travis-ci.org/klyngbaek/accurate-interval)
+[![Coverage Status](https://coveralls.io/repos/github/klyngbaek/accurate-interval/badge.svg?branch=master)](https://coveralls.io/github/klyngbaek/accurate-interval?branch=master)
 [![Dependency Status](https://david-dm.org/klyngbaek/accurate-interval.svg)](https://david-dm.org/klyngbaek/accurate-interval)
 [![devDependency Status](https://david-dm.org/klyngbaek/accurate-interval/dev-status.svg)](https://david-dm.org/klyngbaek/accurate-interval#info=devDependencies)
-[![Coverage Status](https://coveralls.io/repos/github/klyngbaek/accurate-interval/badge.svg?branch=master)](https://coveralls.io/github/klyngbaek/accurate-interval?branch=master)
 
 ## API
 
