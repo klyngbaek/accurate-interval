@@ -1,11 +1,13 @@
 {
   "name": "accurate-interval",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Create an accurate interval that does not skew over time.",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && tape test.js",
-    "lint": "jshint **.js"
+    "lint": "jshint **.js",
+    "cover": "istanbul cover tape -- test.js",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
   },
   "homepage": "https://github.com/klyngbaek/accurate-interval#readme",
   "devDependencies": {
+    "istanbul": "^0.4.2",
     "jshint": "^2.9.1",
     "tape": "^4.4.0"
   }

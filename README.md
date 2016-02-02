@@ -7,10 +7,11 @@ Create an accurate interval that does not skew over time.
 [![build status](https://secure.travis-ci.org/klyngbaek/accurate-interval.png)](http://travis-ci.org/klyngbaek/accurate-interval)
 [![Dependency Status](https://david-dm.org/klyngbaek/accurate-interval.svg)](https://david-dm.org/klyngbaek/accurate-interval)
 [![devDependency Status](https://david-dm.org/klyngbaek/accurate-interval/dev-status.svg)](https://david-dm.org/klyngbaek/accurate-interval#info=devDependencies)
+[![Coverage Status](https://coveralls.io/repos/github/klyngbaek/accurate-interval/badge.svg?branch=master)](https://coveralls.io/github/klyngbaek/accurate-interval?branch=master)
 
-## Usage
+## API
 
-### accurateInterval(func, interval, opts)
+### `var interval = accurateInterval(func, interval, opts)`
 
 - `func`: `function` - Function to call ever interval ms. func takes one argument, scheduledTime, which is the timestamp in milliseconds the callback was scheduled for.
 - `interval`: `number` - Interval (in ms) with which to call func.
