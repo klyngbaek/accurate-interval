@@ -5,6 +5,8 @@ Create an accurate interval that does not skew over time.
 [![NPM](https://nodei.co/npm/accurate-interval.png)](https://nodei.co/npm/accurate-interval/)
 
 [![build status](https://secure.travis-ci.org/klyngbaek/accurate-interval.png)](http://travis-ci.org/klyngbaek/accurate-interval)
+[![Dependency Status](https://david-dm.org/klyngbaek/accurate-interval.svg)](https://david-dm.org/klyngbaek/accurate-interval)
+[![devDependency Status](https://david-dm.org/klyngbaek/accurate-interval/dev-status.svg)](https://david-dm.org/klyngbaek/accurate-interval#info=devDependencies)
 
 ## Usage
 
